@@ -1,0 +1,546 @@
+GROUP: 00Uncorrelated
+
+--- TEST CASE: 00Uncorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 20995
+Total weight: 14721
+Number of items packed = 29
+Run time = 0.00 ms
+--------------------------------------------
+
+--- TEST CASE: 00Uncorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 46537
+Total weight: 22519
+Number of items packed = 67
+Run time = 0.00 ms
+--------------------------------------------
+
+--- TEST CASE: 00Uncorrelated\n00200\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 84317
+Total weight: 50302
+Number of items packed = 129
+Run time = 1.01 ms
+--------------------------------------------
+
+--- TEST CASE: 00Uncorrelated\n00500\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 207992
+Total weight: 118693
+Number of items packed = 314
+Run time = 1.00 ms
+--------------------------------------------
+
+--- TEST CASE: 00Uncorrelated\n01000\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 400811
+Total weight: 252480
+Number of items packed = 615
+Run time = 4.02 ms
+--------------------------------------------
+
+GROUP: 01WeaklyCorrelated
+
+--- TEST CASE: 01WeaklyCorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 15768
+Total weight: 14232
+Number of items packed = 26
+Run time = 0.00 ms
+--------------------------------------------
+
+--- TEST CASE: 01WeaklyCorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 31064
+Total weight: 29013
+Number of items packed = 50
+Run time = 0.00 ms
+--------------------------------------------
+
+--- TEST CASE: 01WeaklyCorrelated\n00200\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 56976
+Total weight: 51563
+Number of items packed = 106
+Run time = 0.00 ms
+--------------------------------------------
+
+--- TEST CASE: 01WeaklyCorrelated\n00500\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 139258
+Total weight: 127276
+Number of items packed = 255
+Run time = 2.05 ms
+--------------------------------------------
+
+--- TEST CASE: 01WeaklyCorrelated\n01000\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 273052
+Total weight: 245972
+Number of items packed = 520
+Run time = 6.96 ms
+--------------------------------------------
+
+GROUP: 02StronglyCorrelated
+
+--- TEST CASE: 02StronglyCorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 17539
+Total weight: 14239
+Number of items packed = 33
+Run time = 18.00 ms
+--------------------------------------------
+
+--- TEST CASE: 02StronglyCorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 35617
+Total weight: 29017
+Number of items packed = 66
+Run time = 112.05 ms
+--------------------------------------------
+
+--- TEST CASE: 02StronglyCorrelated\n00200\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 65363
+Total weight: 51563
+Number of items packed = 138
+Run time = 180007.15 ms
+--------------------------------------------
+
+--- TEST CASE: 02StronglyCorrelated\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 162178
+Total weight: 127278
+Number of items packed = 349
+Run time = 180020.83 ms
+--------------------------------------------
+
+--- TEST CASE: 02StronglyCorrelated\n01000\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 316372
+Total weight: 245972
+Number of items packed = 704
+Run time = 180025.64 ms
+--------------------------------------------
+
+GROUP: 03InverseStronglyCorrelated
+
+--- TEST CASE: 03InverseStronglyCorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 14914
+Total weight: 16714
+Number of items packed = 18
+Run time = 9865.92 ms
+--------------------------------------------
+
+--- TEST CASE: 03InverseStronglyCorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 30468
+Total weight: 33968
+Number of items packed = 35
+Run time = 58.95 ms
+--------------------------------------------
+
+--- TEST CASE: 03InverseStronglyCorrelated\n00200\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 54964
+Total weight: 61464
+Number of items packed = 65
+Run time = 6.00 ms
+--------------------------------------------
+
+--- TEST CASE: 03InverseStronglyCorrelated\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 136031
+Total weight: 152031
+Number of items packed = 160
+Run time = 188367.44 ms
+--------------------------------------------
+
+--- TEST CASE: 03InverseStronglyCorrelated\n01000\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 263977
+Total weight: 295477
+Number of items packed = 315
+Run time = 180106.47 ms
+--------------------------------------------
+
+GROUP: 04AlmostStronglyCorrelated
+
+--- TEST CASE: 04AlmostStronglyCorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 17556
+Total weight: 14238
+Number of items packed = 33
+Run time = 32031.75 ms
+--------------------------------------------
+
+--- TEST CASE: 04AlmostStronglyCorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 35611
+Total weight: 29016
+Number of items packed = 66
+Run time = 33.00 ms
+--------------------------------------------
+
+--- TEST CASE: 04AlmostStronglyCorrelated\n00200\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 65385
+Total weight: 51563
+Number of items packed = 138
+Run time = 180001.52 ms
+--------------------------------------------
+
+--- TEST CASE: 04AlmostStronglyCorrelated\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 162154
+Total weight: 127278
+Number of items packed = 349
+Run time = 180003.14 ms
+--------------------------------------------
+
+--- TEST CASE: 04AlmostStronglyCorrelated\n01000\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 316415
+Total weight: 245972
+Number of items packed = 704
+Run time = 10728.26 ms
+--------------------------------------------
+
+GROUP: 05SubsetSum
+
+--- TEST CASE: 05SubsetSum\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 14239
+Total weight: 14239
+Number of items packed = 24
+Run time = 8.00 ms
+--------------------------------------------
+
+--- TEST CASE: 05SubsetSum\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 29017
+Total weight: 29017
+Number of items packed = 49
+Run time = 1.00 ms
+--------------------------------------------
+
+--- TEST CASE: 05SubsetSum\n00200\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 51563
+Total weight: 51563
+Number of items packed = 88
+Run time = 0.00 ms
+--------------------------------------------
+
+--- TEST CASE: 05SubsetSum\n00500\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 127278
+Total weight: 127278
+Number of items packed = 242
+Run time = 1.01 ms
+--------------------------------------------
+
+--- TEST CASE: 05SubsetSum\n01000\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 245972
+Total weight: 245972
+Number of items packed = 477
+Run time = 2.00 ms
+--------------------------------------------
+
+GROUP: 06UncorrelatedWithSimilarWeights
+
+--- TEST CASE: 06UncorrelatedWithSimilarWeights\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 19676
+Total weight: 2401482
+Number of items packed = 24
+Run time = 33.96 ms
+--------------------------------------------
+
+--- TEST CASE: 06UncorrelatedWithSimilarWeights\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 39791
+Total weight: 4902253
+Number of items packed = 49
+Run time = 6789.57 ms
+--------------------------------------------
+
+--- TEST CASE: 06UncorrelatedWithSimilarWeights\n00200\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 75678
+Total weight: 9904900
+Number of items packed = 99
+Run time = 95.00 ms
+--------------------------------------------
+
+--- TEST CASE: 06UncorrelatedWithSimilarWeights\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 189769
+Total weight: 24712055
+Number of items packed = 247
+Run time = 180018.24 ms
+--------------------------------------------
+
+--- TEST CASE: 06UncorrelatedWithSimilarWeights\n01000\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 371246
+Total weight: 49525319
+Number of items packed = 495
+Run time = 11993.54 ms
+--------------------------------------------
+
+GROUP: 07SpannerUncorrelated
+
+--- TEST CASE: 07SpannerUncorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 13472
+Total weight: 4569
+Number of items packed = 29
+Run time = 6.01 ms
+--------------------------------------------
+
+--- TEST CASE: 07SpannerUncorrelated\n00100\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 24228
+Total weight: 8748
+Number of items packed = 57
+Run time = 180022.20 ms
+--------------------------------------------
+
+--- TEST CASE: 07SpannerUncorrelated\n00200\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 47836
+Total weight: 17274
+Number of items packed = 115
+Run time = 180006.87 ms
+--------------------------------------------
+
+--- TEST CASE: 07SpannerUncorrelated\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 114616
+Total weight: 42898
+Number of items packed = 292
+Run time = 180004.04 ms
+--------------------------------------------
+
+--- TEST CASE: 07SpannerUncorrelated\n01000\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 228624
+Total weight: 84656
+Number of items packed = 598
+Run time = 180003.08 ms
+--------------------------------------------
+
+GROUP: 08SpannerWeaklyCorrelated
+
+--- TEST CASE: 08SpannerWeaklyCorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 10354
+Total weight: 11452
+Number of items packed = 25
+Run time = 22169.41 ms
+--------------------------------------------
+
+--- TEST CASE: 08SpannerWeaklyCorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 20550
+Total weight: 20824
+Number of items packed = 48
+Run time = 123.00 ms
+--------------------------------------------
+
+--- TEST CASE: 08SpannerWeaklyCorrelated\n00200\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 40575
+Total weight: 41116
+Number of items packed = 97
+Run time = 18175.71 ms
+--------------------------------------------
+
+--- TEST CASE: 08SpannerWeaklyCorrelated\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 98713
+Total weight: 100076
+Number of items packed = 241
+Run time = 180046.10 ms
+--------------------------------------------
+
+--- TEST CASE: 08SpannerWeaklyCorrelated\n01000\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 196050
+Total weight: 198664
+Number of items packed = 462
+Run time = 180019.68 ms
+--------------------------------------------
+
+GROUP: 09SpannerStronglyCorrelated
+
+--- TEST CASE: 09SpannerStronglyCorrelated\n00050\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 28440
+Total weight: 11540
+Number of items packed = 22
+Run time = 180005.85 ms
+--------------------------------------------
+
+--- TEST CASE: 09SpannerStronglyCorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 51656
+Total weight: 20956
+Number of items packed = 53
+Run time = 34600.67 ms
+--------------------------------------------
+
+--- TEST CASE: 09SpannerStronglyCorrelated\n00200\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 101888
+Total weight: 41288
+Number of items packed = 101
+Run time = 180015.07 ms
+--------------------------------------------
+
+--- TEST CASE: 09SpannerStronglyCorrelated\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 245128
+Total weight: 99928
+Number of items packed = 258
+Run time = 180024.35 ms
+--------------------------------------------
+
+--- TEST CASE: 09SpannerStronglyCorrelated\n01000\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 488672
+Total weight: 198772
+Number of items packed = 527
+Run time = 180023.42 ms
+--------------------------------------------
+
+GROUP: 10MultipleStronglyCorrelated
+
+--- TEST CASE: 10MultipleStronglyCorrelated\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 21338
+Total weight: 14238
+Number of items packed = 33
+Run time = 20809.37 ms
+--------------------------------------------
+
+--- TEST CASE: 10MultipleStronglyCorrelated\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 43316
+Total weight: 29016
+Number of items packed = 65
+Run time = 1336.06 ms
+--------------------------------------------
+
+--- TEST CASE: 10MultipleStronglyCorrelated\n00200\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 81658
+Total weight: 51558
+Number of items packed = 136
+Run time = 23729.79 ms
+--------------------------------------------
+
+--- TEST CASE: 10MultipleStronglyCorrelated\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 203778
+Total weight: 127278
+Number of items packed = 342
+Run time = 180027.76 ms
+--------------------------------------------
+
+--- TEST CASE: 10MultipleStronglyCorrelated\n01000\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 399170
+Total weight: 245970
+Number of items packed = 693
+Run time = 180003.58 ms
+--------------------------------------------
+
+GROUP: 11ProfitCeiling
+
+--- TEST CASE: 11ProfitCeiling\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 14229
+Total weight: 14238
+Number of items packed = 24
+Run time = 25842.48 ms
+--------------------------------------------
+
+--- TEST CASE: 11ProfitCeiling\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 29001
+Total weight: 29015
+Number of items packed = 46
+Run time = 88807.32 ms
+--------------------------------------------
+
+--- TEST CASE: 11ProfitCeiling\n00200\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 51540
+Total weight: 51562
+Number of items packed = 84
+Run time = 180051.81 ms
+--------------------------------------------
+
+--- TEST CASE: 11ProfitCeiling\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 127239
+Total weight: 127277
+Number of items packed = 209
+Run time = 180021.56 ms
+--------------------------------------------
+
+--- TEST CASE: 11ProfitCeiling\n01000\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 245877
+Total weight: 245972
+Number of items packed = 412
+Run time = 180022.15 ms
+--------------------------------------------
+
+GROUP: 12Circle
+
+--- TEST CASE: 12Circle\n00050\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 300031
+Total weight: 14239
+Number of items packed = 24
+Run time = 28989.91 ms
+--------------------------------------------
+
+--- TEST CASE: 12Circle\n00100\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 611418
+Total weight: 29017
+Number of items packed = 43
+Run time = 214.04 ms
+--------------------------------------------
+
+--- TEST CASE: 12Circle\n00200\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 1086483
+Total weight: 51563
+Number of items packed = 79
+Run time = 180085.68 ms
+--------------------------------------------
+
+--- TEST CASE: 12Circle\n00500\R01000\s000.kp ---
+Status: [Not Optimal]
+Total value = 2681868
+Total weight: 127278
+Number of items packed = 184
+Run time = 180018.61 ms
+--------------------------------------------
+
+--- TEST CASE: 12Circle\n01000\R01000\s000.kp ---
+Status: [Optimal]
+Total value = 5182856
+Total weight: 245972
+Number of items packed = 366
+Run time = 28711.57 ms
+--------------------------------------------
+
